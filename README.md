@@ -5,4 +5,6 @@
 
 ##### Please check the main repository of the project: https://github.com/AlfredsLapkovskis/MultimodalPlantClassifier.
 
+![app screenshot](app.jpg)
+
 The app contains modified images from PlantCLEF2015 dataset (https://www.imageclef.org/lifeclef/2015/plant).
