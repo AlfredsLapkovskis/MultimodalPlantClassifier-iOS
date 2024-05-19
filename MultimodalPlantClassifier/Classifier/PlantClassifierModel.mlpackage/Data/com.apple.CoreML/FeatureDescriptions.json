@@ -1,0 +1,24 @@
+{
+  "Outputs" : {
+    "Identity" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Inputs" : {
+    "leaf" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "stem" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "flower" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "fruit" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}

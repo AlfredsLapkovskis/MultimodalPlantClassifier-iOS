@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import SwiftData
+
 
 @main
 struct MultimodalPlantClassifierApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: [
+                    HistoryItem.self,
+                    ImageItem.self,
+                    Prediction.self,
+                ])
         }
     }
 }

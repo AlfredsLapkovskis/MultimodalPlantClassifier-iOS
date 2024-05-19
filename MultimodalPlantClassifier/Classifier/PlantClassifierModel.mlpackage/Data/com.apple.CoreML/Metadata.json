@@ -1,0 +1,10 @@
+{
+  "MLModelVersionStringKey" : "1.0",
+  "MLModelDescriptionKey" : "Multimodal plant classification model fused by MFAS algoirthm using images of four plant organs – flower, leaf, fruit and stem.",
+  "MLModelCreatorDefinedKey" : {
+    "com.github.apple.coremltools.version" : "7.2",
+    "com.github.apple.coremltools.source" : "tensorflow==2.16.1"
+  },
+  "MLModelAuthorKey" : "Alfreds Lapkovskis & Natalia Nefedova",
+  "MLModelLicenseKey" : "MIT"
+}

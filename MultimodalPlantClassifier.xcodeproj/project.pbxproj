@@ -7,19 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B664442C2BF0AFE300CE68FC /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664442B2BF0AFE300CE68FC /* UIImage+Extension.swift */; };
+		B664442E2BF0AFF600CE68FC /* CGImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664442D2BF0AFF600CE68FC /* CGImage+Extension.swift */; };
+		B66444302BF0B1F200CE68FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664442F2BF0B1F200CE68FC /* Constants.swift */; };
+		B66444322BF0B35000CE68FC /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66444312BF0B35000CE68FC /* Array+Extension.swift */; };
+		B66444342BF0B3A900CE68FC /* MLMultiArray+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66444332BF0B3A900CE68FC /* MLMultiArray+Extension.swift */; };
+		B66444362BF0B76700CE68FC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66444352BF0B76700CE68FC /* HistoryView.swift */; };
+		B66444382BF0BBDD00CE68FC /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66444372BF0BBDD00CE68FC /* HistoryItem.swift */; };
+		B664443A2BF0BD6500CE68FC /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66444392BF0BD6500CE68FC /* ImageItem.swift */; };
+		B664443C2BF0CEDD00CE68FC /* ProbabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664443B2BF0CEDD00CE68FC /* ProbabilityView.swift */; };
+		B664443E2BF0D9A300CE68FC /* HistoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664443D2BF0D9A300CE68FC /* HistoryItemView.swift */; };
+		B66444402BF0DA6800CE68FC /* HistoryItemImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664443F2BF0DA6800CE68FC /* HistoryItemImageGridView.swift */; };
+		B66444422BF0DA9C00CE68FC /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66444412BF0DA9C00CE68FC /* CommonUtils.swift */; };
+		B66444442BF0E09600CE68FC /* PredictionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66444432BF0E09600CE68FC /* PredictionItemView.swift */; };
 		B69CFE992BE94EAB004E87BA /* MultimodalPlantClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFE982BE94EAB004E87BA /* MultimodalPlantClassifierApp.swift */; };
 		B69CFE9B2BE94EAB004E87BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFE9A2BE94EAB004E87BA /* ContentView.swift */; };
 		B69CFE9D2BE94EAC004E87BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69CFE9C2BE94EAC004E87BA /* Assets.xcassets */; };
 		B69CFEA12BE94EAC004E87BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69CFEA02BE94EAC004E87BA /* Preview Assets.xcassets */; };
+		B69CFEA82BE94F4C004E87BA /* PlantClassifierModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B69CFEA72BE94F4C004E87BA /* PlantClassifierModel.mlpackage */; };
+		B69CFEAA2BE95083004E87BA /* ClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFEA92BE95083004E87BA /* ClassificationView.swift */; };
+		B69CFEAC2BE9594E004E87BA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFEAB2BE9594E004E87BA /* ImagePicker.swift */; };
+		B69CFEAE2BE971A6004E87BA /* PlantClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFEAD2BE971A6004E87BA /* PlantClassifier.swift */; };
+		B69CFEB02BE971CC004E87BA /* Modality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFEAF2BE971CC004E87BA /* Modality.swift */; };
+		B6AE90962BEBE9770045F511 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AE90952BEBE9770045F511 /* Prediction.swift */; };
+		B6AE90982BEBF1250045F511 /* PredictionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AE90972BEBF1250045F511 /* PredictionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B664442B2BF0AFE300CE68FC /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		B664442D2BF0AFF600CE68FC /* CGImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+Extension.swift"; sourceTree = "<group>"; };
+		B664442F2BF0B1F200CE68FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B66444312BF0B35000CE68FC /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		B66444332BF0B3A900CE68FC /* MLMultiArray+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Extension.swift"; sourceTree = "<group>"; };
+		B66444352BF0B76700CE68FC /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B66444372BF0BBDD00CE68FC /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		B66444392BF0BD6500CE68FC /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		B664443B2BF0CEDD00CE68FC /* ProbabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbabilityView.swift; sourceTree = "<group>"; };
+		B664443D2BF0D9A300CE68FC /* HistoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItemView.swift; sourceTree = "<group>"; };
+		B664443F2BF0DA6800CE68FC /* HistoryItemImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItemImageGridView.swift; sourceTree = "<group>"; };
+		B66444412BF0DA9C00CE68FC /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		B66444432BF0E09600CE68FC /* PredictionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionItemView.swift; sourceTree = "<group>"; };
 		B69CFE952BE94EAB004E87BA /* MultimodalPlantClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultimodalPlantClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69CFE982BE94EAB004E87BA /* MultimodalPlantClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimodalPlantClassifierApp.swift; sourceTree = "<group>"; };
 		B69CFE9A2BE94EAB004E87BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B69CFE9C2BE94EAC004E87BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69CFE9E2BE94EAC004E87BA /* MultimodalPlantClassifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultimodalPlantClassifier.entitlements; sourceTree = "<group>"; };
 		B69CFEA02BE94EAC004E87BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B69CFEA72BE94F4C004E87BA /* PlantClassifierModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = PlantClassifierModel.mlpackage; sourceTree = "<group>"; };
+		B69CFEA92BE95083004E87BA /* ClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationView.swift; sourceTree = "<group>"; };
+		B69CFEAB2BE9594E004E87BA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B69CFEAD2BE971A6004E87BA /* PlantClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantClassifier.swift; sourceTree = "<group>"; };
+		B69CFEAF2BE971CC004E87BA /* Modality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modality.swift; sourceTree = "<group>"; };
+		B6AE90952BEBE9770045F511 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
+		B6AE90972BEBF1250045F511 /* PredictionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +73,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B66444272BF0AF5100CE68FC /* Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				B69CFEA72BE94F4C004E87BA /* PlantClassifierModel.mlpackage */,
+				B69CFEAD2BE971A6004E87BA /* PlantClassifier.swift */,
+			);
+			path = Classifier;
+			sourceTree = "<group>";
+		};
+		B66444282BF0AF6B00CE68FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B69CFEAB2BE9594E004E87BA /* ImagePicker.swift */,
+				B69CFE9A2BE94EAB004E87BA /* ContentView.swift */,
+				B69CFEA92BE95083004E87BA /* ClassificationView.swift */,
+				B6AE90972BEBF1250045F511 /* PredictionsView.swift */,
+				B66444352BF0B76700CE68FC /* HistoryView.swift */,
+				B664443B2BF0CEDD00CE68FC /* ProbabilityView.swift */,
+				B664443D2BF0D9A300CE68FC /* HistoryItemView.swift */,
+				B664443F2BF0DA6800CE68FC /* HistoryItemImageGridView.swift */,
+				B66444432BF0E09600CE68FC /* PredictionItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B66444292BF0AF9D00CE68FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B69CFEAF2BE971CC004E87BA /* Modality.swift */,
+				B6AE90952BEBE9770045F511 /* Prediction.swift */,
+				B66444372BF0BBDD00CE68FC /* HistoryItem.swift */,
+				B66444392BF0BD6500CE68FC /* ImageItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B664442A2BF0AFCC00CE68FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B664442F2BF0B1F200CE68FC /* Constants.swift */,
+				B664442B2BF0AFE300CE68FC /* UIImage+Extension.swift */,
+				B664442D2BF0AFF600CE68FC /* CGImage+Extension.swift */,
+				B66444312BF0B35000CE68FC /* Array+Extension.swift */,
+				B66444332BF0B3A900CE68FC /* MLMultiArray+Extension.swift */,
+				B66444412BF0DA9C00CE68FC /* CommonUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		B69CFE8C2BE94EAB004E87BA = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +141,13 @@
 		B69CFE972BE94EAB004E87BA /* MultimodalPlantClassifier */ = {
 			isa = PBXGroup;
 			children = (
-				B69CFE982BE94EAB004E87BA /* MultimodalPlantClassifierApp.swift */,
-				B69CFE9A2BE94EAB004E87BA /* ContentView.swift */,
-				B69CFE9C2BE94EAC004E87BA /* Assets.xcassets */,
 				B69CFE9E2BE94EAC004E87BA /* MultimodalPlantClassifier.entitlements */,
+				B69CFE982BE94EAB004E87BA /* MultimodalPlantClassifierApp.swift */,
+				B66444292BF0AF9D00CE68FC /* Model */,
+				B66444282BF0AF6B00CE68FC /* View */,
+				B66444272BF0AF5100CE68FC /* Classifier */,
+				B664442A2BF0AFCC00CE68FC /* Utils */,
+				B69CFE9C2BE94EAC004E87BA /* Assets.xcassets */,
 				B69CFE9F2BE94EAC004E87BA /* Preview Content */,
 			);
 			path = MultimodalPlantClassifier;
@@ -139,8 +231,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B664443C2BF0CEDD00CE68FC /* ProbabilityView.swift in Sources */,
+				B664443A2BF0BD6500CE68FC /* ImageItem.swift in Sources */,
 				B69CFE9B2BE94EAB004E87BA /* ContentView.swift in Sources */,
+				B6AE90982BEBF1250045F511 /* PredictionsView.swift in Sources */,
+				B69CFEA82BE94F4C004E87BA /* PlantClassifierModel.mlpackage in Sources */,
+				B69CFEAE2BE971A6004E87BA /* PlantClassifier.swift in Sources */,
+				B69CFEAC2BE9594E004E87BA /* ImagePicker.swift in Sources */,
+				B6AE90962BEBE9770045F511 /* Prediction.swift in Sources */,
+				B664443E2BF0D9A300CE68FC /* HistoryItemView.swift in Sources */,
+				B69CFEAA2BE95083004E87BA /* ClassificationView.swift in Sources */,
+				B66444362BF0B76700CE68FC /* HistoryView.swift in Sources */,
+				B664442E2BF0AFF600CE68FC /* CGImage+Extension.swift in Sources */,
+				B66444442BF0E09600CE68FC /* PredictionItemView.swift in Sources */,
+				B664442C2BF0AFE300CE68FC /* UIImage+Extension.swift in Sources */,
+				B69CFEB02BE971CC004E87BA /* Modality.swift in Sources */,
+				B66444402BF0DA6800CE68FC /* HistoryItemImageGridView.swift in Sources */,
 				B69CFE992BE94EAB004E87BA /* MultimodalPlantClassifierApp.swift in Sources */,
+				B66444322BF0B35000CE68FC /* Array+Extension.swift in Sources */,
+				B66444382BF0BBDD00CE68FC /* HistoryItem.swift in Sources */,
+				B66444342BF0B3A900CE68FC /* MLMultiArray+Extension.swift in Sources */,
+				B66444422BF0DA9C00CE68FC /* CommonUtils.swift in Sources */,
+				B66444302BF0B1F200CE68FC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +386,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please grant access to camera to classify plants from your photos.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -282,8 +395,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -312,6 +425,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please grant access to camera to classify plants from your photos.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,8 +434,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
