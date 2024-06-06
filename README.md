@@ -2,6 +2,8 @@
 
 ## Automatic Fused Multimodal Deep Learning for Plant Identification
 
+##### Preprint: https://arxiv.org/abs/2406.01455
+
 ##### Please check the main repository of the project: https://github.com/AlfredsLapkovskis/MultimodalPlantClassifier.
 
 ![app screenshot](app.jpg)
