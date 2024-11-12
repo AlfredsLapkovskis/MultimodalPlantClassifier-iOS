@@ -1,6 +1,6 @@
-# Source code of a sample iOS app for the paper by Alfreds Lapkovskis, Natalia Nefedova & Ali Beikmohammadi (2024)
+# Source code of a sample iOS app for the paper "Automatic Fused Multimodal Deep Learning for Plant Identification"
 
-## Automatic Fused Multimodal Deep Learning for Plant Identification
+## Alfreds Lapkovskis, Natalia Nefedova & Ali Beikmohammadi (2024)
 
 ##### Preprint: https://arxiv.org/abs/2406.01455
 
